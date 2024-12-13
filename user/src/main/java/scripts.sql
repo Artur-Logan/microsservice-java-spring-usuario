@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS usuario (
+    id UUID PRIMARY KEY,
+    nome VARCHAR(255),
+    email VARCHAR(255)
+);
